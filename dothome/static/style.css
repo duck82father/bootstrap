@@ -1,0 +1,62 @@
+* {
+    box-sizing: border-box;
+  }
+  
+/* 텍스트 속성 */
+.img-center{
+    margin:10px 3% 0px 3%;
+    width:94%;
+}
+
+.img-left{
+    margin:10px 3% 10px 3%;
+    width:35%;
+}
+
+.float-left {
+    float:left;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.text-left{
+    text-align: left;
+}
+
+.gray {
+    color:rgb(136, 128, 128);
+}
+
+.girl {
+    color:hotpink;
+    font-weight: bold;
+}
+
+.boy {
+    color:cornflowerblue;
+    font-weight: bold;
+}
+.round {
+    border-radius: 12px;
+}
+
+.blind {
+    display:none;
+}
+
+div {
+   margin-top: 1px;
+   background-color: rgb(253, 248, 242); 
+   border-bottom: 1px solid;
+   border-color:rgb(238, 229, 229);
+}
+
+.margin_ud {
+    margin:20 0 20 0;
+}
+
+h3 {
+    font-weight: 700;
+}

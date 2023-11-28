@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="static/style.css">
+</head>
+<body>
+<div>
+    <img class="img-center round" src="img/duck82father.jpg" alt="우리집 고양이" title="우리집 고양이">
+    <div class="text-center">
+
+        <div onclick="show(gyuri)" class="margin_ud">
+            <h3>🍊 Gyuri <span class="girl">♀</span></h3>
+            <div id="gyuri" class="blind float-left text-left">
+                <img class="img-left round float-left" src="img/gyuri.jpg" alt="gyuri" title="규리">               
+                <h4>아비시니안 순종 고양이. 날렵하고 똑똑한 똑순이이지만, 종종 애교가 폭발한다. 온몸이 근육질이다.</h4>
+                <h5>180506 ~</h5>
+            </div>
+        </div>
+
+        <div onclick="show(bami)" class="margin_ud">
+            <h3>🌰 Bami <span class="girl">♀</span></h3>
+            <div id="bami" class="blind">180520 ~</div>
+        </div>
+
+        <div onclick="show(navi)" class="margin_ud">
+            <h3>🦋 Navi <span class="boy">♂</span></h3>
+            <div id="navi" class="blind">220600 ~</div>
+        </div>
+        
+        <div onclick="show(duck82)" class="margin_ud">
+            <h3 class="gray">⭐️ duck82 <span class="boy">♂</span></h3>
+            <div id="duck82" class="blind">~ 171109</div>
+        </div>
+
+    </div>
+</div>
+</body>
+
+<script>
+    var gyuri = document.getElementById('gyuri');
+    var bami = document.getElementById('bami');
+    var navi = document.getElementById('navi');
+    var duck82 = document.getElementById('duck82');
+    function show(id) {
+        if (id.style.display == "none"){
+            id.style.display="block";
+        }
+        else{
+            id.style.display="none";
+        }
+        
+    }
+</script>
+
+</html>
+
+
